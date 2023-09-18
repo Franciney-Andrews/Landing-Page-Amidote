@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;900&family=Fredoka:wght@300;400&family=Inter:wght@100;200;300;500&family=Poppins:wght@200;500;900&family=Righteous&family=Work+Sans:wght@100;200;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #BF7E45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .logo {
+    width: 530px;
+    height: 112px;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 0.5rem;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="email"],
+input[type="tel"] {
+    background: #D9D9D9;
+    width: 372px;
+    height: 60px;
+    padding: 0.5rem;
+    outline: none;
+    color: #592C28;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    width: 171px;
+    height: 44px;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 50px;
+    background: #592C28;
+    color: #D9D9D9;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.pata1 {
+    position: fixed;
+    width: 233.114px;
+    height: 245.729px;
+    top: 480px;
+    transform: rotate(45deg);
+    z-index: 100;
+    left: 0pt;
+}
+
+.pata2 {
+    position: fixed;
+    width: 233.114px;
+    height: 245.729px;
+    top: -10px;
+    left: 1212.45px;
+    transform: rotate(-19deg);
+
+}
+
+section.images {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 4rem;
+}
+
+section.images img {
+    max-width: 90%;
+    height: auto;
+}
+
+
+
+
